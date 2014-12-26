@@ -19,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/wwwy3y3/file-op/issues"
   },
-  "homepage": "https://github.com/wwwy3y3/file-op"
+  "homepage": "https://github.com/wwwy3y3/file-op",
+  "dependencies": {
+    "q-io": "^1.11.6",
+    "q": "^1.1.2"
+  },
+  "devDependencies": {
+    "should": "^4.4.1"
+  }
 }
