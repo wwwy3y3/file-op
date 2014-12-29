@@ -11,7 +11,7 @@ fop.insert(testfile, '123', 3)
    })
 */
 
-fop.remove(testfile, 5,8)
+fop.remove(testfile, 0,2)
 	.done(function () {
    		var content= fs.readFileSync(testfile, 'utf8');
    		console.log(content);
